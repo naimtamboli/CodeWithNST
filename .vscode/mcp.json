@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "city-weather": {
+      "type": "stdio",
+      "command": "java",
+      "args": [
+        "-jar",
+        "${workspaceFolder}\\target\\city-weather-1.0.0.jar",
+        "--mcp"
+      ]
+    }
+  }
+}
